@@ -30,42 +30,42 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WebP]
 @="Convert to WebP"
-"Icon"="C:\\Image Converter\\Convert Webp\\icon.ico"
+"Icon"="C:\\File Converter\\Image Converter\\Convert Webp\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WebP\command]
-@="\"C:\\Image Converter\\Convert Webp\\convert_to_webp.bat\" \"%1\""
+@="\"C:\\File Converter\\Image Converter\\Convert Webp\\convert_to_webp.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to PNG]
 @="Convert to PNG"
-"Icon"="C:\\Image Converter\\Convert Png\\icon.ico"
+"Icon"="C:\\File Converter\\Image Converter\\Convert Png\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to PNG\command]
-@="\"C:\\Image Converter\\Convert Png\\convert_to_png.bat\" \"%1\""
+@="\"C:\\File Converter\\Image Converter\\Convert Png\\convert_to_png.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPG]
 @="Convert to JPG"
-"Icon"="C:\\Image Converter\\Convert Jpeg\\icon.ico"
+"Icon"="C:\\File Converter\\Image Converter\\Convert Jpeg\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPG\command]
-@="\"C:\\Image Converter\\Convert Jpg\\convert_to_jpg.bat\" \"%1\""
+@="\"C:\\File Converter\\Image Converter\\Convert Jpg\\convert_to_jpg.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPEG]
 @="Convert to JPEG"
-"Icon"="C:\\Image Converter\\Convert Jpeg\\icon.ico"
+"Icon"="C:\\File Converter\\Image Converter\\Convert Jpeg\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPEG\command]
-@="\"C:\\Image Converter\\Convert Jpeg\\convert_to_jpeg.bat\" \"%1\""
+@="\"C:\\File Converter\\Image Converter\\Convert Jpeg\\convert_to_jpeg.bat\" \"%1\""
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToAAC]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to AAC]
 @="Convert to AAC"
-"Icon"="C:\\Audio Converter\\Convert AAC\\icon.ico"
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToAAC\command]
-@="\"C:\\Audio Converter\\Convert AAC\\convert_to_aac.bat\" \"%1\""
+"Icon"="C:\\File Converter\\Audio Converter\\Convert AAC\\icon.ico"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to AAC\command]
+@="\"C:\\File Converter\\Audio Converter\\Convert AAC\\convert_to_aac.bat\" \"%1\""
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToMP3]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MP3]
 @="Convert to MP3"
-"Icon"="C:\\Audio Converter\\Convert MP3\\icon.ico"
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToMP3\command]
-@="\"C:\\Audio Converter\\Convert MP3\\convert_to_mp3.bat\" \"%1\""
+"Icon"="C:\\File Converter\\Audio Converter\\Convert MP3\\icon.ico"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MP3\command]
+@="\"C:\\File Converter\\Audio Converter\\Convert MP3\\convert_to_mp3.bat\" \"%1\""
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToWAV]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WAV]
 @="Convert to WAV"
-"Icon"="C:\\Audio Converter\\Convert WAV\\icon.ico"
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToWAV\command]
-@="\"C:\\Audio Converter\\Convert WAV\\convert_to_wav.bat\" \"%1\""
+"Icon"="C:\\File Converter\\Audio Converter\\Convert WAV\\icon.ico"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WAV\command]
+@="\"C:\\File Converter\\Audio Converter\\Convert WAV\\convert_to_wav.bat\" \"%1\""
