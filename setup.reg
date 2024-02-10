@@ -1,5 +1,6 @@
 Windows Registry Editor Version 5.00
 
+; File Converter
 [HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\shell\ImageConverter]
 "MUIVerb"="Image Converter"
 "Icon"="C:\\File Converter\\Image Converter\\icon.ico"
@@ -20,6 +21,7 @@ Windows Registry Editor Version 5.00
 "Icon"="C:\\File Converter\\Image Converter\\icon.ico"
 "SubCommands"="Convert to PNG;Convert to JPG;Convert to JPEG"
 
+; Audio Converter
 [HKEY_CLASSES_ROOT\SystemFileAssociations\.aac\shell\AudioConverter]
 "MUIVerb"="Audio Converter"
 "Icon"="C:\\File Converter\\Audio Converter\\icon.ico"
@@ -45,6 +47,28 @@ Windows Registry Editor Version 5.00
 "Icon"="C:\\File Converter\\Audio Converter\\icon.ico"
 "SubCommands"="Convert to AAC;Convert to MP3;Convert to MP3;Convert to MKA"
 
+; Video Converter
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\AudioConverter]
+"MUIVerb"="Video Converter"
+"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
+"SubCommands"="Convert to MP4;Convert to MOV;Convert to WEBM"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\AudioConverter]
+"MUIVerb"="Video Converter"
+"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
+"SubCommands"="Convert to MKV;Convert to MOV;Convert to WEBM"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\AudioConverter]
+"MUIVerb"="Video Converter"
+"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
+"SubCommands"="Convert to MKV;Convert to MP4;Convert to WEBM"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\AudioConverter]
+"MUIVerb"="Video Converter"
+"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
+"SubCommands"="Convert to MKV;Convert to MP4;Convert to MOV"
+
+; Image Converter
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WebP]
 @="Convert to WebP"
 "Icon"="C:\\File Converter\\Image Converter\\icon.ico"
@@ -69,6 +93,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPEG\command]
 @="\"C:\\File Converter\\Image Converter\\Convert Jpeg\\convert_to_jpeg.bat\" \"%1\""
 
+; Audio Converter
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to AAC]
 @="Convert to AAC"
 "Icon"="C:\\File Converter\\Audio Converter\\icon.ico"
@@ -98,3 +123,28 @@ Windows Registry Editor Version 5.00
 "Icon"="C:\\File Converter\\Audio Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to M4A\command]
 @="\"C:\\File Converter\\Audio Converter\\Convert M4A\\convert_to_m4a.bat\" \"%1\""
+
+; Video Converter
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MKV]
+@="Convert to MKV"
+"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MKV\command]
+@="\"C:\\File Converter\\Video Converter\\Convert Mkv\\convert_to_mkv.bat\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MP4]
+@="Convert to MP4"
+"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MP4\command]
+@="\"C:\\File Converter\\Video Converter\\Convert Mp4\\convert_to_mp4.bat\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MOV]
+@="Convert to MOV"
+"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MOV\command]
+@="\"C:\\File Converter\\Video Converter\\Convert Mov\\convert_to_mov.bat\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WEBM]
+@="Convert to WEBM"
+"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WEBM\command]
+@="\"C:\\File Converter\\Video Converter\\Convert Webm\\convert_to_webm.bat\" \"%1\""
