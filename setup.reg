@@ -78,13 +78,13 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WAV\command]
 @="\"C:\\File Converter\\Audio Converter\\Convert WAV\\convert_to_wav.bat\" \"%1\""
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WAV]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MKA]
 @="Convert to MKA"
 "Icon"="C:\\File Converter\\Audio Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MKA\command]
 @="\"C:\\File Converter\\Audio Converter\\Convert MKA\\convert_to_mka.bat\" \"%1\""
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WAV]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to M4A]
 @="Convert to M4A"
 "Icon"="C:\\File Converter\\Audio Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to M4A\command]
