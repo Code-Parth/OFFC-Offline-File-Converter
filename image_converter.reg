@@ -1,0 +1,41 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\shell\ImageConverter]
+"MUIVerb"="Image Converter"
+"Icon"="C:\\File Converter\\Image Converter\\icon.ico"
+"SubCommands"="Convert to WebP;Convert to PNG;Convert to JPG;"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\shell\ImageConverter]
+"MUIVerb"="Image Converter"
+"Icon"="C:\\File Converter\\Image Converter\\icon.ico"
+"SubCommands"="Convert to WebP;Convert to PNG;Convert to JPEG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\shell\ImageConverter]
+"MUIVerb"="Image Converter"
+"Icon"="C:\\File Converter\\Image Converter\\icon.ico"
+"SubCommands"="Convert to WebP;Convert to JPG;Convert to JPEG"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webp\shell\ImageConverter]
+"MUIVerb"="Image Converter"
+"Icon"="C:\\File Converter\\Image Converter\\icon.ico"
+"SubCommands"="Convert to PNG;Convert to JPG;Convert to JPEG"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WebP]
+@="Convert to WebP"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WebP\command]
+@="\"C:\\File Converter\\Image Converter\\Convert Webp\\convert_to_webp.bat\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to PNG]
+@="Convert to PNG"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to PNG\command]
+@="\"C:\\File Converter\\Image Converter\\Convert Png\\convert_to_png.bat\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPG]
+@="Convert to JPG"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPG\command]
+@="\"C:\\File Converter\\Image Converter\\Convert Jpg\\convert_to_jpg.bat\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPEG]
+@="Convert to JPEG"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPEG\command]
+@="\"C:\\File Converter\\Image Converter\\Convert Jpeg\\convert_to_jpeg.bat\" \"%1\""
