@@ -52,23 +52,20 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPEG\command]
 @="\"C:\\Image Converter\\Convert Jpeg\\convert_to_jpeg.bat\" \"%1\""
 
-[HKEY_CLASSES_ROOT\SystemFileAssociations\.aac\shell\AudioConverter\shell\ConvertToAAC]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToAAC]
 @="Convert to AAC"
 "Icon"="C:\\Audio Converter\\Convert AAC\\icon.ico"
-
-[HKEY_CLASSES_ROOT\SystemFileAssociations\.aac\shell\AudioConverter\shell\ConvertToAAC\command]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToAAC\command]
 @="\"C:\\Audio Converter\\Convert AAC\\convert_to_aac.bat\" \"%1\""
 
-[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\AudioConverter\shell\ConvertToMP3]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToMP3]
 @="Convert to MP3"
 "Icon"="C:\\Audio Converter\\Convert MP3\\icon.ico"
-
-[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\AudioConverter\shell\ConvertToMP3\command]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToMP3\command]
 @="\"C:\\Audio Converter\\Convert MP3\\convert_to_mp3.bat\" \"%1\""
 
-[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\AudioConverter\shell\ConvertToWAV]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToWAV]
 @="Convert to WAV"
 "Icon"="C:\\Audio Converter\\Convert WAV\\icon.ico"
-
-[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\AudioConverter\shell\ConvertToWAV\command]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\ConvertToWAV\command]
 @="\"C:\\Audio Converter\\Convert WAV\\convert_to_wav.bat\" \"%1\""
