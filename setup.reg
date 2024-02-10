@@ -71,80 +71,67 @@ Windows Registry Editor Version 5.00
 ; Image Converter
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WebP]
 @="Convert to WebP"
-"Icon"="C:\\File Converter\\Image Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WebP\command]
 @="\"C:\\File Converter\\Image Converter\\Convert Webp\\convert_to_webp.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to PNG]
 @="Convert to PNG"
-"Icon"="C:\\File Converter\\Image Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to PNG\command]
 @="\"C:\\File Converter\\Image Converter\\Convert Png\\convert_to_png.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPG]
 @="Convert to JPG"
-"Icon"="C:\\File Converter\\Image Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPG\command]
 @="\"C:\\File Converter\\Image Converter\\Convert Jpg\\convert_to_jpg.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPEG]
 @="Convert to JPEG"
-"Icon"="C:\\File Converter\\Image Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to JPEG\command]
 @="\"C:\\File Converter\\Image Converter\\Convert Jpeg\\convert_to_jpeg.bat\" \"%1\""
 
 ; Audio Converter
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to AAC]
 @="Convert to AAC"
-"Icon"="C:\\File Converter\\Audio Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to AAC\command]
 @="\"C:\\File Converter\\Audio Converter\\Convert AAC\\convert_to_aac.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MP3]
 @="Convert to MP3"
-"Icon"="C:\\File Converter\\Audio Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MP3\command]
 @="\"C:\\File Converter\\Audio Converter\\Convert MP3\\convert_to_mp3.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WAV]
 @="Convert to WAV"
-"Icon"="C:\\File Converter\\Audio Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WAV\command]
 @="\"C:\\File Converter\\Audio Converter\\Convert WAV\\convert_to_wav.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MKA]
 @="Convert to MKA"
-"Icon"="C:\\File Converter\\Audio Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MKA\command]
 @="\"C:\\File Converter\\Audio Converter\\Convert MKA\\convert_to_mka.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to M4A]
 @="Convert to M4A"
-"Icon"="C:\\File Converter\\Audio Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to M4A\command]
 @="\"C:\\File Converter\\Audio Converter\\Convert M4A\\convert_to_m4a.bat\" \"%1\""
 
 ; Video Converter
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MKV]
 @="Convert to MKV"
-"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MKV\command]
 @="\"C:\\File Converter\\Video Converter\\Convert Mkv\\convert_to_mkv.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MP4]
 @="Convert to MP4"
-"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MP4\command]
 @="\"C:\\File Converter\\Video Converter\\Convert Mp4\\convert_to_mp4.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MOV]
 @="Convert to MOV"
-"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to MOV\command]
 @="\"C:\\File Converter\\Video Converter\\Convert Mov\\convert_to_mov.bat\" \"%1\""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WEBM]
 @="Convert to WEBM"
-"Icon"="C:\\File Converter\\Video Converter\\icon.ico"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\Shell\Convert to WEBM\command]
 @="\"C:\\File Converter\\Video Converter\\Convert Webm\\convert_to_webm.bat\" \"%1\""

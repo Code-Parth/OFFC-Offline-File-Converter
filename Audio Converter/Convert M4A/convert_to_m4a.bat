@@ -11,3 +11,5 @@ for %%F in (%1) do set "filename=%%~nF"
 
 REM Convert the input audio file to M4A format
 ffmpeg -i %1 -c:a aac %filename%.m4a
+
+PAUSE

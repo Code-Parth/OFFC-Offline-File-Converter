@@ -11,3 +11,5 @@ for %%F in (%1) do set "filename=%%~nF"
 
 REM Convert the input audio file to WAV format
 ffmpeg -i %1 %filename%.wav
+
+PAUSE

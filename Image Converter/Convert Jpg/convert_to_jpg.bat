@@ -12,3 +12,5 @@ if "%input_dir:~-1%"=="\" set "input_dir=%input_dir:~0,-1%"
 
 REM Convert the input file to JPG in the same directory
 start /min python "C:\Image Converter\Convert Jpg\convert_to_jpg.py" "%input_file%" "%input_dir%"
+
+PAUSE

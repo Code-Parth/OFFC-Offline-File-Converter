@@ -1,16 +1,13 @@
 import os
 import sys
-import subprocess
+import ffmpeg
 
 
 def convert_to_webm(input_file, output_folder):
-    try:
-        output_file = os.path.join(output_folder, os.path.splitext(
-            os.path.basename(input_file))[0] + ".webm")
-        subprocess.run(["ffmpeg", "-i", input_file, output_file], check=True)
-        print(f"Converted {input_file} to WebM.")
-    except subprocess.CalledProcessError as e:
-        print(f"Error converting {input_file} to WebM: {e}")
+    output_file = os.path.join(output_folder, os.path.splitext(
+        os.path.basename(input_file))[0] + ".webm")
+    ffmpeg.input(input_file).output(output_file).run(overwrite_output=True)
+    print(f"Converted {input_file} to WebM.")
 
 
 if __name__ == "__main__":

@@ -11,3 +11,5 @@ for %%F in (%1) do set "filename=%%~nF"
 
 REM Convert the input audio file to MKV format
 ffmpeg -i %1 %filename%.mkv
+
+PAUSE

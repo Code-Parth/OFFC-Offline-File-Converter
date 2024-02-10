@@ -12,3 +12,5 @@ if "%input_dir:~-1%"=="\" set "input_dir=%input_dir:~0,-1%"
 
 REM Convert the input file to PNG in the same directory
 start /min python "C:\Image Converter\Convert Png\convert_to_png.py" "%input_file%" "%input_dir%"
+
+PAUSE

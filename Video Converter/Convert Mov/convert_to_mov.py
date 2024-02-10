@@ -1,16 +1,13 @@
 import os
 import sys
-import subprocess
+import ffmpeg
 
 
 def convert_to_mov(input_file, output_folder):
-    try:
-        output_file = os.path.join(output_folder, os.path.splitext(
-            os.path.basename(input_file))[0] + ".mov")
-        subprocess.run(["ffmpeg", "-i", input_file, output_file], check=True)
-        print(f"Converted {input_file} to MOV.")
-    except subprocess.CalledProcessError as e:
-        print(f"Error converting {input_file} to MOV: {e}")
+    output_file = os.path.join(output_folder, os.path.splitext(
+        os.path.basename(input_file))[0] + ".mov")
+    ffmpeg.input(input_file).output(output_file).run(overwrite_output=True)
+    print(f"Converted {input_file} to MOV.")
 
 
 if __name__ == "__main__":
