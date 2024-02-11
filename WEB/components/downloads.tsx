@@ -20,6 +20,9 @@ export default function Download() {
                         />
                     </Link>Download For Windows
                 </button>
+                <p>
+                Mac OS compatibility coming soon....
+                </p>
             </div>
         </>
     );
