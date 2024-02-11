@@ -33,6 +33,5 @@ The selected files will be converted to (desired option) format and saved in the
 
 2. To operate on website, you can simply upload the files on the website and it will convert files locally only.
 
-3.  
 
 Disclaimer: This tool is provided as-is, without warranty or guarantee. Use it responsibly and at your own risk.
