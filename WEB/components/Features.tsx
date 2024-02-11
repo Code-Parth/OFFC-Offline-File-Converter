@@ -25,8 +25,7 @@ export default function Features() {
                     <div className="bg-[#333333] rounded-lg p-6">
                         <h3 className="text-2xl font-semibold mb-4 text-[#bd1e59]">CLI Tool</h3>
                         <p className="mb-6">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum, augue et fermentum laoreet,
-                            libero.
+                            CLI accessibility for power users, with the same speed and quality.
                         </p>
                     </div>
                     <div className="bg-[#333333] rounded-lg p-6">
