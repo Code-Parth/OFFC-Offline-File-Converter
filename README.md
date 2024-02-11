@@ -31,6 +31,8 @@ The selected files will be converted to (desired option) format and saved in the
 
 1. For windows software, you have to click on the 'Download on Windows' button on our website, then install the exe file of OffC , after installing , tick the launch option during the finish of downloadinng of the software.
 
-2. 
+2. To operate on website, you can simply upload the files on the website and it will convert files locally only.
+
+3.  
 
 Disclaimer: This tool is provided as-is, without warranty or guarantee. Use it responsibly and at your own risk.
