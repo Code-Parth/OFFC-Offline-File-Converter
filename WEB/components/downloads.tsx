@@ -10,7 +10,7 @@ export default function Download() {
                     Downloads
                 </h1>
                 <button className="bg-[#5F53E9] rounded-full flex items-center justify-center w-96 h-16 font-semibold text-2xl text-white gap-2">
-                    <Link href="/">
+                    <Link href="https://github.com/Code-Parth/OFFC-Offline-File-Converter/releases/tag/V1.0.0">
                         <Image
                             alt="logo"
                             className="px-3"
